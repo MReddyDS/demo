@@ -1,8 +1,11 @@
 # create a function for hello to print
-def hello():
-    print("Hello world!")
+# update hello function with input person name
 
-hello()
+def hello(name):
+    print(f"Hello {name}!")
+
+name = input("input your name: ")
+hello(name)
 
 # create a function to return square of give numeric value
 def int_square(n):
@@ -11,4 +14,5 @@ def int_square(n):
 num = int_square(int(input("Give integer (1-9):")))
 
 print(f"Squared given integer - {num}")
+
 
