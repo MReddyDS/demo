@@ -18,6 +18,8 @@ print(f"Squared given integer - {num}")
 # create a function to identify the common elements in two list and return as list
 
 def common_element(lst1: list, lst2: list) -> list:
+    print(lst1)
+    print(lst2)
     return list(set(lst1) & set(lst2))
 
 test = common_element([1,2,3,4,5,6,7], [3,5,8,9])
