@@ -15,4 +15,12 @@ num = int_square(int(input("Give integer (1-9):")))
 
 print(f"Squared given integer - {num}")
 
+# create a function to identify the common elements in two list and return as list
+
+def common_element(lst1: list, lst2: list) -> list:
+    return list(set(lst1) & set(lst2))
+
+test = common_element([1,2,3,4,5,6,7], [3,5,8,9])
+print(test)
+
 
